@@ -1,7 +1,7 @@
-$color: skyblue;
-$font-size-md: 1.5rem;
-
-body {
-    background: $color;
-    font-size: $font-size-md;
-}
+@import "./abstract/functions", "./abstract/mixins", "./abstract/variables";
+@import "./base/normalize", "./base/reset", "./base/typography";
+@import "./components/button", "./components/card";
+@import "./layout/footer", "./layout/header";
+@import "./pages/home", "./pages/register";
+@import "./theme/theme";
+@import "./vendors/bootstrap";
